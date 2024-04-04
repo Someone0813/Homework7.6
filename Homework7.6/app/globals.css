@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.images {
+  margin-left: 80px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.images:hover {
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+.my_images:hover {
+  transform: scale(1.1);
+  margin-bottom: 10px;
+}
+.my {
+  margin-left: 130px;
+}
+.bg {
+  margin-left: 130px;
+}
+.my_sectionn {
+  margin-top: -70px;
+  margin-left: 520px;
+}
+.img {
+  margin-left: -370px;
+  display: flex;
+}
+.li {
+  margin-top: 50px;
+  gap: 5px;
+}
+.li:hover {
+  color: blue;
+}
+.info {
+  gap: 10px;
+  margin-top: 10px;
+  margin-left: -400px;
+  display: flex;
+}
+.img_avatar {
+  text-align: center;
+  border-radius: 50%;
+}
+h1 {
+  margin-left: 10px;
+}
+.Details_page {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 10px;
+}
+.title {
+  color: black;
+}
+.price {
+  color: blue;
+}
+.imagess {
+  width: 600px;
+  height: 300px;
+}
+.imagesss {
+  width: 800px;
+  height: 300px;
+}
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.MainCard{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 580px;
+  gap: 25px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 25px;
+}
+.CardBTN{
+  margin-left: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: black;
+  max-width: 100px;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
